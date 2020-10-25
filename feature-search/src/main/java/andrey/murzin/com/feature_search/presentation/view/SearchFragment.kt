@@ -64,7 +64,7 @@ class SearchFragment : BaseFragment(R.layout.fragment_search_translate), SearchW
         initList()
 
         with(edSearchTranslate) {
-            rxTextChangeListener()
+            rxTextChangeListener(savedInstanceState != null)
                 .debounce(DEBOUNCE_TIME, TimeUnit.MILLISECONDS)
                 .distinctUntilChanged()
                 .filter { it.length >= MIN_LENGTH }
