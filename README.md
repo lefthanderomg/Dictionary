@@ -20,6 +20,6 @@
 
 **adapter-rxjava2** - преобразует Call в rx обьект
 
-**converter-gson** - чтобы retrofit маппил json в обьекты вызовы http client
+**converter-gson** - маппиг json в обьекты вызовов retrofit
 
 **LoggingInterceptor** - логгер для вывода результатов retrofit в Logcat
