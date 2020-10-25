@@ -1,0 +1,7 @@
+include ':feature-detail'
+include ':feature-search'
+include ':core'
+include ':network-impl'
+include ':network-api'
+include ':app'
+rootProject.name = "Translate"

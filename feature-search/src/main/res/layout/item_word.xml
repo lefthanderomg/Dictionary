@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tvTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_medium"
+        android:paddingTop="@dimen/margin_medium"
+        android:paddingEnd="@dimen/margin_medium"
+        android:paddingBottom="@dimen/margin_medium"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_medium" />
+
+</FrameLayout>

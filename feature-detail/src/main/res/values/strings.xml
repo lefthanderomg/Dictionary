@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mean_value">%1s [%2s]</string>
+    <string name="definition">Определение: %1s</string>
+    <string name="translate">Перевод: %1s</string>
+</resources>
